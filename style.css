@@ -28,3 +28,6 @@ body {
   font-weight: bold;
   background-color: #ed6436;
 }
+main {
+  padding: 0 16%;
+}
