@@ -14,12 +14,14 @@ body {
 }
 .titles__main-title {
   font-size: 1rem;
+  margin-top: 40px;
   color: #ed6436;
 }
 .titles__secondary-title {
   font-size: 3rem;
 }
 .button {
+  margin-top: 30px;
   padding: 10px 18px;
   border: 0;
   border-radius: 0 16px 16px 16px;
@@ -30,4 +32,14 @@ body {
 }
 main {
   padding: 0 16%;
+}
+.images-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.images-section__image {
+  border-radius: 25px;
+  margin: 20px 10%;
+  width: 80%;
 }
