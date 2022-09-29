@@ -18,7 +18,7 @@ body {
   color: #ed6436;
 }
 .titles__secondary-title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .button {
   margin-top: 30px;
@@ -31,7 +31,7 @@ body {
   background-color: #ed6436;
 }
 main {
-  padding: 0 16%;
+  padding: 0 8%;
 }
 .images-section {
   display: flex;
@@ -46,12 +46,15 @@ main {
 }
 .texts-inside-image {
   position: absolute;
-  top: 250px;
+  top: 25%;
+  right: 50%;
+  transform: translateX(50%);
 }
 .texts-inside-image {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 0.75rem;
 }
 .texts-inside-image__text {
   color: #fff;
