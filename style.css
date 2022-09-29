@@ -1,4 +1,17 @@
 :root {
   margin: 0;
-  --font-style: Nunito, "Nunito Extrabold";
+  --font-style: -apple-system, "Nunito", BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-style: var(--font-style);
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
